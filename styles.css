@@ -1,0 +1,75 @@
+/* Cualquier enlace no tendra subrayado */
+a{
+    text-decoration: none;
+}
+
+/* Fuentes de Todas las Páginas */
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: grey;
+}
+
+/* Titulo Principal */
+.titulo__principal__index {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+
+/* Contenedor Header */
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilo Header */
+.estilo__menu__index {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+/* Estilo Lista Header */
+.estilo__li {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Contenedor Noticias */
+.div__noticias{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Tamaño Imágenes */
+.tamaño__img__noticias{
+    width: 500px;
+    height: 300px;
+    margin: 50px;
+}
+
+/* Conetenedor Footer */
+.div__footer{
+    display:flex;
+    justify-content: right;
+    border-top: 50 rem;
+    border-color: black;
+    background-color: beige;
+}
+
+/* Estilo Fuente Footer */
+.div__footer p{
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tamaño Imagenes Footer */
+.tamaño__img__footer{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+}
