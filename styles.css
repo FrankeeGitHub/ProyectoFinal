@@ -1,21 +1,33 @@
-/* Cualquier enlace no tendra subrayado */
-a{
-    text-decoration: none;
-}
-
-/* Fuentes de Todas las Páginas */
+/* Fuentes de todas las páginas */
 body{
     font-family: 'Roboto Mono', monospace;
     background-color: grey;
+    color: whitesmoke;
+    margin: 3rem;
 }
 
-/* Titulo Principal */
-.titulo__principal__index {
+/* Título principal*/
+.div__titulo__principal{
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     padding: 1rem;
-    color: white;
+}
+
+/* Enlace título principal*/
+.div__titulo__principal a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+/* Tamaño imágen título principal */
+.div__logo__titulo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 885px;
+    width: 100px;
+    height: 80px;
 }
 
 /* Contenedor Header */
@@ -25,50 +37,146 @@ body{
 }
 
 /* Estilo Header */
-.estilo__menu__index {
+.header__menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
+    padding: 1rem;
+
 }
 
-/* Estilo Lista Header */
-.estilo__li {
-    color: green;
+/* Enlace estilo header*/
+.header__menu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
 
+/* Estilo Header lista*/
+.estilo__li__raw a:hover{
+    background-color: red;
+    color: white;
+    padding: 0 4rem 0 4rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+}
+.estilo__li__sd a:hover{
+    color: white;
+    background-color: blue;
+    padding: 0 4rem 0 4rem;
+    width: 4rem;
+    text-align: center;
+}
+.estilo__li__ppv a:hover{
+    color: white;
+    background-color: black;
+    padding: 0 4rem 0 4rem;
+    width: 4rem;
+    text-align: center;
+}
+.estilo__li__cto a:hover{
+    color: white;
+    background-color: goldenrod;
+    padding: 0 4rem 0 4rem;
+    width: 4rem;
+    text-align: center;
+}
+
+/* Section Main */
+.super__section{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 /* Contenedor Noticias */
-.div__noticias{
+.div__section_noticias{
     display: flex;
-    justify-content: center;
+    justify-self: center;
     flex-direction: column;
 }
-/* Tamaño Imágenes */
-.tamaño__img__noticias{
-    width: 500px;
-    height: 300px;
-    margin: 50px;
+.div__noticias__1{
+    display: flex;
+    flex-direction: column;
+    border-top: 2px solid blueviolet;
+    border-bottom: 2px solid blueviolet;
+    margin-bottom: 2rem;
 }
 
-/* Conetenedor Footer */
+.div__noticias__2{
+    border-bottom: 2px solid blueviolet;
+    margin-bottom: 2rem;
+}
+
+.div__noticias__3{
+        border-bottom: 2px solid blueviolet;
+        margin-bottom: 2rem;
+}
+
+/* Noticias título contenido y parráfo */
+.div__noticias__titulo{
+    display: flex;
+    margin: 0 5rem 0 2rem;
+}
+.div__noticias__contenido{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+.div__noticias__contenido p{
+    padding: 0 2rem 0 2rem;
+}
+
+/* Tamaño imágenes Noticias*/
+.tamaño__img__noticias{
+    width: 300px;
+    height: 100px;
+}
+
+/* Contenedor Widgets */
+.div__widgets
+{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin: 1rem 1rem 1rem 1rem;
+    width: 500px;
+    height: 1000px;
+    padding: 100px;
+    background-color: lightpink;
+}
+
+/* Contenedor Footer */
 .div__footer{
     display:flex;
-    justify-content: right;
-    border-top: 50 rem;
-    border-color: black;
+    flex-direction: row;
     background-color: beige;
 }
 
+.reloj__footer{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-left: 1rem;
+}
+
 /* Estilo Fuente Footer */
-.div__footer p{
-  text-align: left;
+.div__footer h3{
+  text-align: right;
   font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 2rem;
+  margin-left: 600px;
 }
 
 /* Tamaño Imagenes Footer */
-.tamaño__img__footer{
+.tamaño__img__footer img{
     display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding: 8px;
     width: 50px;
     height: 50px;
     margin: 30px;
