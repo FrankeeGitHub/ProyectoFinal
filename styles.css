@@ -6,15 +6,23 @@ body{
 }
 
 /* Título principal*/
-.div__titulo__principal{
+.container__titulo__principal{
     display: flex;
+    flex-direction: row;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
-    padding: 2rem; 
+    padding: 0 auto;
+    width: 100%;
+}
+.div__titulo__principal{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    width: 80%;
 }
 
 /* Enlace título principal*/
-.div__titulo__principal a{
+.titulo a{
     color: aliceblue;
     text-decoration: none;
 }
@@ -22,21 +30,18 @@ body{
 /* Tamaño imágen título principal */
 .div__logo__titulo {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding-left: 975px;
     width: 100px;
     height: 80px;
 }
 
 /* Contenedor Header */
-.header {
+.header{
     display: flex;
     justify-content: center;
 }
 
 /* Estilo Header */
-.header__menu {
+.header__menu{
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -160,6 +165,7 @@ body{
     display:flex;
     flex-direction: row;
     background-color: beige;
+    width: 100%;
 }
 
 .reloj__footer{
