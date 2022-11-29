@@ -1,20 +1,20 @@
 /* Fuentes de todas las páginas */
-body{
+body {
     font-family: 'Roboto Mono', monospace;
     background-color: grey;
     color: whitesmoke;
 }
 
 /* Título principal*/
-.container__titulo__principal{
+.container__titulo__principal {
     display: flex;
     flex-direction: row;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     background-color: black;
     padding: 0 auto;
     width: 100%;
 }
-.div__titulo__principal{
+
+.div__titulo__principal {
     display: flex;
     flex-direction: row;
     padding: 2rem;
@@ -22,11 +22,11 @@ body{
 }
 
 /* Enlace título principal*/
-
-.div__titulo{
+.div__titulo {
     padding: 1rem;
 }
-.div__titulo a{
+
+.div__titulo a {
     color: aliceblue;
     text-decoration: none;
 }
@@ -39,13 +39,13 @@ body{
 }
 
 /* Contenedor Header */
-.header{
+.header {
     display: flex;
     justify-content: center;
 }
 
 /* Estilo Header */
-.header__menu{
+.header__menu {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -54,7 +54,7 @@ body{
 }
 
 /* Enlace estilo header*/
-.header__menu a{
+.header__menu a {
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -63,7 +63,7 @@ body{
 }
 
 /* Estilo Header lista*/
-.estilo__li__raw a:hover{
+.estilo__li__raw a:hover {
     background-color: red;
     color: white;
     padding: 0 4rem 0 4rem;
@@ -71,21 +71,24 @@ body{
     height: 4rem;
     text-align: center;
 }
-.estilo__li__sd a:hover{
+
+.estilo__li__sd a:hover {
     color: white;
     background-color: blue;
     padding: 0 4rem 0 4rem;
     width: 4rem;
     text-align: center;
 }
-.estilo__li__ppv a:hover{
+
+.estilo__li__ppv a:hover {
     color: white;
     background-color: black;
     padding: 0 4rem 0 4rem;
     width: 4rem;
     text-align: center;
 }
-.estilo__li__cto a:hover{
+
+.estilo__li__cto a:hover {
     color: white;
     background-color: goldenrod;
     padding: 0 4rem 0 4rem;
@@ -93,8 +96,24 @@ body{
     text-align: center;
 }
 
+/* Carrousel */
+.div_carrousel{
+    margin: 2rem 20rem 2rem 20rem;
+}
+.w-100{
+    width: 100px;
+    height: 400px;
+    margin: 0 auto;
+}
+.d-md-block
+{
+    background-color: gray ;
+    width:350px;
+    margin-left: 8rem;
+}
+
 /* Section Main */
-.super__section{
+.super__section {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -102,41 +121,37 @@ body{
 }
 
 /* Contenedor Noticias */
-.div__section_noticias{
+.linea_div{
+    border: 2px solid blueviolet;
+    margin: 2rem;
+
+}
+
+.div__section_noticias {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-left: 2rem;
 }
-.div__noticias__1{
+
+.div__noticias{
     display: flex;
     flex-direction: column;
-    border-top: 2px solid blueviolet; 
-    border-bottom: 2px solid blueviolet;
-    margin-bottom: 2rem;
 }
-
-.div__noticias__2{
-    border-bottom: 2px solid blueviolet;
-    margin-bottom: 2rem;
-}
-
-.div__noticias__3{
-        border-bottom: 2px solid blueviolet;
-        margin-bottom: 2rem;
-}
-
+ 
 /* Noticias título contenido y parráfo */
-.div__noticias__titulo{
+.div__noticias__titulo {
     display: flex;
     margin: 0 5rem 0 2rem;
 }
-.div__noticias__contenido{
+
+.div__noticias__contenido {
     display: flex;
     flex-direction: row;
     padding: 1rem;
 }
-.div__noticias__parrafo{
+
+.div__noticias__parrafo {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -144,83 +159,114 @@ body{
 }
 
 /* Tamaño imágenes Noticias*/
-.tamaño__img__noticias{
+.tamaño__img__noticias {
     width: 350px;
     height: 150px;
     margin-left: 1rem;
 }
 
 /* Contenedor Widgets */
-.div__widgets{
+.div__widgets {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
-    margin: 0 1rem 0 1rem; 
-    width: 500px;
-    height: 1000px;
-    padding: 0 20px 100px 20px;
+    margin: 0 1rem 0 1rem;
+    width: 440px;
+    height: 570px;
+    padding: 0 20px 0 20px;
     background-color: lightpink;
 }
+
+.reloj__widgets {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    background-color: lightpink;
+}
+
 .widgets__titulo__videos {
     color: black;
 }
-    
+
 /* Contenedor Footer */
-.div__footer{
-    display:flex;
+.div__footer {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: beige;
     width: 100%;
 }
 
-.reloj__footer{
+/* Estilo Fuente Footer */
+.div__footer h3 {
     display: flex;
+    text-align: right;
     justify-content: center;
-    flex-direction: row;
-    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top: 1rem;
+    padding: 2rem;
 }
 
-/* Estilo Fuente Footer */
-.div__footer h3{
-  text-align: right;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-  margin-top: 3rem;
-  margin-left: 650px;
-  padding: 2rem;
-  
+.div__footer p {
+    display: flex;
+    justify-content: left;
+    color: black;
+    text-align: left;
+    font-size: 17px;
+    margin-top: 50px;
 }
 
 /* Tamaño Imagenes Footer */
-.tamaño__img__footer img{
+.tamaño__img__footer img {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    margin-top: 55px;
-    margin-left: 30px;
+    margin-top: 42px;
+    margin-left: 1rem;
     padding: 8px;
     width: 50px;
     height: 50px;
-    
+
 }
+
 /* Contacto */
 
 /* Título contactos */
-.titulo__contacto{
+.titulo__contacto {
     background-color: goldenrod;
     color: whitesmoke;
     text-align: center;
 }
 
 /* Formularios */
-.form__contacto{
+.section__contacto{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 700px;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin: 2rem;
 }
+
+.form__contacto { 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 40%;
+}
+
+.mensaje__contacto{
+    display: flex;
+    flex-direction: column;
+}
+
 .textarea{
     height: 500px;
 }
+
+.contacto__botonEnviar{
+    margin-top: 10px;
+    width: 4rem;
+    height: 2rem;
+}
+
