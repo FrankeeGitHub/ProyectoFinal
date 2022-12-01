@@ -97,18 +97,21 @@ body {
 }
 
 /* Carrousel */
-.div_carrousel{
+.div_carrousel {
     margin: 2rem 20rem 2rem 20rem;
 }
-.w-100{
+
+.w-100 {
     width: 100px;
     height: 400px;
     margin: 0 auto;
 }
-.d-md-block
-{
-    background-color: gray ;
-    width:350px;
+
+.d-md-block {
+    color: lightpink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 4px;
+    width: 350px;
     margin-left: 8rem;
 }
 
@@ -121,7 +124,7 @@ body {
 }
 
 /* Contenedor Noticias */
-.linea_div{
+.linea_div {
     border: 2px solid blueviolet;
     margin: 2rem;
 
@@ -134,11 +137,11 @@ body {
     margin-left: 2rem;
 }
 
-.div__noticias{
+.div__noticias {
     display: flex;
     flex-direction: column;
 }
- 
+
 /* Noticias título contenido y parráfo */
 .div__noticias__titulo {
     display: flex;
@@ -189,7 +192,7 @@ body {
 }
 
 /* Contenedor Footer */
-.div__footer {
+.contenedor__footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -197,37 +200,41 @@ body {
     width: 100%;
 }
 
+.div__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+}
+
 /* Estilo Fuente Footer */
 .div__footer h3 {
     display: flex;
-    text-align: right;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    margin-top: 1rem;
+    margin: 2rem;
     padding: 2rem;
 }
 
 .div__footer p {
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    text-align: center;
     color: black;
-    text-align: left;
-    font-size: 17px;
-    margin-top: 50px;
+    font-size: 16px;
+    margin: 2rem;
+    padding: 2rem;
 }
 
 /* Tamaño Imagenes Footer */
-.tamaño__img__footer img {
+.tamaño__img__footer img{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    margin-top: 42px;
-    margin-left: 1rem;
-    padding: 8px;
-    width: 50px;
-    height: 50px;
-
+    justify-content: center;
+    margin: 3rem;
+    padding: 1rem;
+    width: 75px;
+    height: 75px;
 }
 
 /* Contacto */
@@ -240,14 +247,14 @@ body {
 }
 
 /* Formularios */
-.section__contacto{
+.section__contacto {
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 2rem;
 }
 
-.form__contacto { 
+.form__contacto {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -255,18 +262,17 @@ body {
     margin-left: 40%;
 }
 
-.mensaje__contacto{
+.mensaje__contacto {
     display: flex;
     flex-direction: column;
 }
 
-.textarea{
+.textarea {
     height: 500px;
 }
 
-.contacto__botonEnviar{
+.contacto__botonEnviar {
     margin-top: 10px;
     width: 4rem;
     height: 2rem;
 }
-
